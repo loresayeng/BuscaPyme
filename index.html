@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BuscaMYPE</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="#" class="logo">BuscaPYME.cl </a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#soycliente">Soy Cliente</a></li>
+                    <li><a href="#soymype">Soy MYPE</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="assets/images/Logo/Verde.png" id="imagen_banner">
+    </div>
+    <br>
+    <br>
+    <form class="example" action="action_page.php">
+        <input type="text" placeholder="Buscar Mype.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+    <main class="main">
+        <div class="container">
+            <section>
+                <div class="soycliente">
+                        <article>
+                                <a name='soycliente'>
+                                    <h1>Soy cliente y estoy buscando...</h1>
+                                </a>
+            
+                                <p>
+                                    Somos el primer portal web que agrupa emprendimientos de menor tamaño, trabajamos incentivando su difusión y colaboración mutua. Utliza el buscador para encontrar un producto y/o servicio, o haz click en alguna de nuestras categorias para revisar todas las MYPES disponibles.
+                                </p>
+                            </article>
+                </div>
+            <section class="main__galeria">
+
+                <section class="contendor__galeria"
+                    <div class="galeria">
+                        <div class="img">
+                            <img class="imagen" src="assets/images/banner/productos.png" 
+                    </div>
+                </section>
+
+                    <section class="contendor__galeria"
+                    <div class="galeria">
+                        <div class="img">
+                            <img class="imagen" src="assets/images/banner/Start Up.png">
+                        </div>
+
+                    </section>
+                <section class="contendor__galeria"
+                    <div class="galeria">
+                        <div class="img">
+                                <img class="imagen" src="assets/images/banner/Servicio.png">
+                        </div>
+                    </section>
+                </section>
+            
+        </section>
+            <div class="soymype">
+                <article>
+                    <a name='soymype'>
+                        <h1>Soy MYPE y quiero publicar...</h1>
+                            <p>Si tienes una Mype o emprendimiento de menor tamaño, te ofrecemos publicar tus coordenadas de contacto en nuestro portal. Por favor completa el formulario de contacto y a la brevedad nos pondremos en contacto.</p>
+                </article>
+            </div>
+        </section>
+            
+            <div class="formulario">
+                <form action="action_page.php">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+
+                    <label for="lname">E-Mail</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Tu E-Mail..">
+
+                    <label for="country">Pais</label>
+                <select id="country" name="country">
+                    <option value="australia">Chile</option>
+                    <option value="canada">Otro</option>
+                </select>
+
+                    <label for="subject">Mensaje</label>
+                    <textarea id="subject" name="subject" placeholder="Dejanos tu mensaje.." style="height:200px"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+        
+    </main>
+    <footer class="footer">
+        <div class="footer">
+            <h2>Diseñado por @loresayen</h2>
+        </div>
+    </footer>
+</body>
+
+</html>

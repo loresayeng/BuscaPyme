@@ -1,0 +1,236 @@
+body{
+    font-family: 'Share Tech Mono', monospace;
+    color: #100f0d;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+    text-align: center;
+
+}
+p{
+    margin-bottom: 1.6em;
+    text-align: justify;
+
+}
+.container{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}   
+.header{
+
+    background: #100f0d;
+    color: white;
+    padding: 0.5rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+.header a{
+    color: #58e427;
+    text-decoration: none;
+
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.0em;
+
+}
+
+.logo-nav-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1em;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+background: #58e427;
+color: #100f0d;
+}
+.main{
+    padding: 0.5rem;
+}
+.banner{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    background-color:#100f0d;
+}
+
+.example {
+
+    display: flex;
+    justify-content: center;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+}
+
+  /* Style the submit button */
+form.example button {
+    float: left;
+    width: 20%;
+    height: 42px;
+    background: #58e427;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #100f0d;
+}
+
+  /* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+img#imagen_banner{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+.main__galeria {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 5%;
+}
+
+.galeria {
+
+    width: 70%;
+    padding: 20% 20%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+.contenedor__galeria {
+
+    padding: 20%;
+    margin: 20px;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.imagen {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 5px solid #42FF33;
+
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 0px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #42ff33;
+    color:#100f0d;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:#100f0d;
+}
+
+  /* Add a background color and some padding around the form */
+.formulario {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.footer{
+    background: #000000;
+    padding: 1.5rem 0;
+    color: #58e427;
+    text-align: center;
+    left: 0;
+}
+
+
+@media (max-width: 703px) {
+    
+    .navigation ul li{
+        display: flex;
+    }
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 1em;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .navigation ul li a:hover{
+        background: #58e427;
+        color: #100f0d;
+    }
+
+    .header{
+        position: relative;
+    
+    }
+
+}
